@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+    padding: 10px 15rem;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    /* padding:10px 15rem; */
+}
+
+.imgdiv {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+.pimg {
+    height: 30px;
+    width: 30px;
+    border: 2px solid wheat;
+    border-radius: 50%;
+}
+
+.pimg:hover {
+    scale: 1.5;
+}
+
+.navbutton {
+    position: relative;
+    border: 2px solid black;
+    border-radius: 60px;
+    font-size: 15px;
+    background-color: black;
+    color: rgb(137, 134, 134);
+    padding: 6px 10px;
+}
+
+.navbutton:hover {
+    background-color: rgb(41, 37, 37);
+    color: white;
+}
+
+.navbutton:active::before {
+    content: "•";
+    margin-right: 6px;
+}
+
+.navtalk {
+    border: 3px solid rgb(239, 232, 232);
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    font-size: 15px;
+    /* font-weight: 800; */
+}
+
+.hi {
+    color: white;
+    font-family: 'Caveat', cursive;
+    /* font-size: 3rem; */
+    text-decoration: underline;
+    margin: 0;
+
+}
+
+.description {
+    color: white;
+}
+
+.name {
+    color: white;
+    /* font-size: 4rem;
+    font-weight: 900; */
+    font-family:'Times New Roman', Times, serif;
+      /* font-style: italic; */
+      font-weight: 900;
+      font-size:  4rem;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      /* margin: 0; */
+    /* font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; */
+}
+
+.namediv {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    /* margin-top: 70px; */
+    /* background-color: red; */
+}
+
+.hero {
+    position: relative;
+    /* height: 100vh; */
+    overflow: hidden;
+    background-color: black;
+}
+
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 40px;
+}
+
+
+.video-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* gap: 100px; */
+    padding: 40px 0px;
+}
+
+
+
+
+.hero-video {
+    position: relative;
+    /* height: 200px; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero-video video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btndiv{
+    display: flex;
+    gap: 20px;
+    /* color: red; */
+}
+
+.myworkdiv{
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family:cursive;
+}
+
+.intouchdiv{
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family:cursive;
+}
